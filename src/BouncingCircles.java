@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class BouncingCircles extends PApplet {
 
-	//satisfy Java:
+	//satisfy Java (otherwise there's a warning)
 	private static final long serialVersionUID = 1L;
 
 	private ArrayList<Circle> circles;
