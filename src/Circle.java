@@ -36,7 +36,8 @@ public class Circle {
 		angle = getRandomAngle();
 		this.x = x;
 		this.y = y;
-		this.canvas = canvas;
+		this.canvas = canvas; //this is the canvas onto which
+				      //this Circle will be rendered
 		
 		//click location might've been too close to a wall 
 		//given this circle's radius, so adjust if needed:
