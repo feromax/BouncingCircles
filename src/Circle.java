@@ -86,7 +86,7 @@ public class Circle {
 			speed = bounceSlowdownFactor * speed;
 		}
 		
-		//either a bottom- or top-side strike
+		//either a bottom or top strike
 		if ( y + radius >= canvas.height && angle > 0 && angle < 2*Math.PI ) { 
 			//bottom wall strike
 			angle = 2*Math.PI - angle;
