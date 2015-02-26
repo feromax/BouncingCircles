@@ -25,8 +25,8 @@ public class Circle {
 	private static final int minRadius = 10, maxRadius = 40;
 	private static final double minSpeed = 4, maxSpeed = 12;
 	private static final double bounceSlowdownFactor = .8;
-	private static final Color colorPalette[] = 
-		{ Color.BLUE, Color.RED, Color.YELLOW, Color.ORANGE, Color.GREEN }; 
+	private static final Color[] colorPalette = 
+		{ Color.BLUE, Color.RED, Color.YELLOW, Color.ORANGE, Color.GREEN, Color.PINK }; 
 	
 	
 	public Circle(int x, int y, BouncingCircles canvas) {
