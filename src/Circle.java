@@ -26,7 +26,7 @@ public class Circle {
 	private static final double minSpeed = 4, maxSpeed = 12;
 	private static final double bounceSlowdownFactor = .8;
 	private static final Color[] colorPalette = 
-		{ Color.BLUE, Color.RED, Color.YELLOW, Color.ORANGE, Color.GREEN, Color.PINK }; 
+		{ Color.BLUE, Color.RED, Color.YELLOW, Color.ORANGE, Color.GREEN, Color.PINK, Color.MAGENTA }; 
 	
 	
 	public Circle(int x, int y, BouncingCircles canvas) {
